@@ -1,0 +1,91 @@
+textarea {
+    min-height: 400px;
+}
+
+.date{
+    float:right;
+    font-size:0.8em;
+}
+
+.subject{
+    float:left;
+    font-size:0.8em;
+}
+
+.recipient{
+    font-size:1em;
+}
+
+.summary-email-read, .summary-email-unread{
+    background-color: white;
+    padding: 2.5px;
+    height: 60px;
+}
+
+.summary-email-read:hover, .summary-email-unread:hover {
+    background-color: #c7fbff;
+    cursor: pointer;
+}
+
+.mail-date{
+    font-size:0.8em;
+}
+
+.mail-recipient{
+    font-size: 1.2em;
+}
+
+.mail-subject{
+    font-size: 1.em;
+    font-weight: bold;
+}
+
+.mail-body{
+    font-size: 1em;
+    white-space: pre-wrap;
+}
+
+#archive, #unarchive, #reply{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    font-weight: bold;
+    border-color: blue;
+    margin-right: 10px;
+}
+
+#buttons-parent{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+#full-email{
+    padding-top: 40px;
+}
+
+.summary-email-read{
+    border-radius: 2px;
+    padding: 5px;
+    background-color: rgb(212, 212, 212);
+}
+
+.summary-email-unread{
+    border-radius: 2px;
+    padding: 5px;
+    background-color: white;
+    font-weight: bolder;
+    color: rgb(31, 128, 238);
+}
+
+hr { 
+    margin: 2px; 
+}
